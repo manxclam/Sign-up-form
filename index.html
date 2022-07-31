@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode Sans Expanded">
+    <link href="styles/signup.css" rel="stylesheet">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <form action="results.html" method="get">
+        <div id="titles">
+            <h2 id="register">Register</h3>
+            <p id="login-text">Already a member? <a href="login.html" id="login-link">Log in.</a></p>
+        </div>
+
+        <div id="inputs">
+            <div id="input-box">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="first-name" required placeholder="full name">
+            </div>
+            
+            <div id="input-box">
+                <label for="user">Username:</label>
+                <input type="text" id="user" name="user-name" required placeholder="user#0403">
+            </div>
+
+            <div id="input-box">
+                <label for="dob">Date of birth:</label>
+                <input type="date" id="dob" name="date-of-birth" required>
+            </div>
+
+            <div id="input-box">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone-number" required>
+            </div>
+
+            <div id="input-box">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div id="input-box">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="8" placeholder="8+ characters">
+            </div>
+        </div>
+
+        <div>
+            <button id ="submit" type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>

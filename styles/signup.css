@@ -1,0 +1,145 @@
+
+/* root styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Encode Sans Expanded', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #353839;
+}
+
+body {
+    align-items: center;
+    background-size: auto;
+    background-color: #5C9EAD;
+    /* background: rgb(25,20,110); */
+    /* background: linear-gradient(24deg, rgba(25,20,110,1) 0%, rgba(77,181,229,1) 100%, rgba(1,55,93,1) 100%); */
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 15px;
+    width: 100%;
+}
+
+
+
+/* Form object styles */
+form {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgb(17, 17, 17);
+    max-width: 800px;
+    padding: 50px 35px;
+    width: 100%;
+}
+
+
+
+/* Form Header */
+#titles {
+    margin-bottom: 30px;
+    line-height: 30px;
+
+    /* border: red solid 1px; */
+}
+
+#register {
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 0px 0px 12px;
+    position: relative;
+
+    /* border: red solid 1px; */
+}
+
+#login-text {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+
+    /* border: red solid 1px; */
+}
+
+#register::before {
+    background-color: #326273;
+    bottom: 0;
+    content: '';
+    height: 3px;
+    left: 3px;
+    position: absolute;
+    width: 150px;
+}
+
+
+
+/* Input fields */
+form > #inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 200%;
+    margin-bottom: 30px;
+
+    /* border: red solid 1px; */
+}
+
+#input-box {
+    width: calc((100% / 2) - 20px);
+    padding: 10px 0px;
+
+    /* border: red solid 1px; */
+}
+
+#input-box > input {
+    height: 45px;
+    width: 100%;
+    border-radius: 7px;
+    border: #CCCCCC solid 2px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#input-box > label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#gender {
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+}
+
+#radio-button {
+    font-size: 15px;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+#gender-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+#login-link {
+    color: #E39774;
+}
+
+#submit {
+    font-size: 16px;
+    padding: 12px 100px;
+    background-color: #E39774;
+    border-radius: 7px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
