@@ -14,7 +14,6 @@ html {
 
 body {
     align-items: center;
-    background-size: auto;
     background-color: #5C9EAD;
     /* background: rgb(25,20,110); */
     /* background: linear-gradient(24deg, rgba(25,20,110,1) 0%, rgba(77,181,229,1) 100%, rgba(1,55,93,1) 100%); */
@@ -29,11 +28,11 @@ body {
 
 /* Form object styles */
 form {
-    background-color: #FFFFFF;
+    background-color: #eeeeee;
     border-radius: 10px;
     box-shadow: 2px 2px 15px rgb(17, 17, 17);
     max-width: 800px;
-    padding: 50px 35px;
+    padding: 50px 30px;
     width: 100%;
 }
 
@@ -128,18 +127,17 @@ form > #inputs {
 }
 
 
-
-
 #login-link {
     color: #E39774;
 }
 
 #submit {
     font-size: 16px;
-    padding: 12px 100px;
+    padding: 12px 150px;
     background-color: #E39774;
     border-radius: 7px;
     border: none;
+    margin: auto;
     color: #ffffff;
     cursor: pointer;
 }
